@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0 100px;
+  background-color: azure;
+}
+
+header {
+  display: flex;
+  background-color: azure;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+header .orientation {
+  margin: 0 70px 0 50px;
+}
+header .word {
+  color: #6b6b58;
+}
+header p {
+  color: #6b6b58;
+}
+
+.area01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 500px;
+  margin: auto;
+}
+.area01 .searchArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+.area01 .searchArea .btn01 {
+  width: 100px;
+}
+.area01 .searchArea .btn02 {
+  width: 50px;
+}
+
+.area02 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.area02 .bookArea {
+  background-color: rgb(209, 219, 215);
+  text-align: center;
+  height: 450px;
+  width: 650px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.area02 .bookArea h4 {
+  font-family: Microsoft JhengHei;
+  margin: 20px;
+  letter-spacing: 5px;
+}
+.area02 .bookArea .table {
+  height: 300px;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.area02 .bookArea .table td {
+  width: 100px;
+  height: 50px;
+}/*# sourceMappingURL=category.css.map */

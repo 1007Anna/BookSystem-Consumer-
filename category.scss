@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0 100px;
+    background-color: azure;
+}
+
+header {
+    display: flex;
+    background-color: azure;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    .orientation {
+        margin: 0 70px 0 50px;
+    }
+
+    .word {
+        color: #6b6b58;
+    }
+
+    p {
+        color: #6b6b58;
+    }
+}
+
+.area01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    margin: auto;
+   
+    .searchArea{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+
+        .btn01 {
+            width: 100px;
+        }
+
+        .btn02 {
+            width: 50px;
+        }
+    }
+}
+
+.area02 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .bookArea {
+        background-color: rgb(209, 219, 215);
+        text-align: center; 
+        height: 450px;
+        width: 650px;
+        margin: 0 auto;
+        border-radius: 10px;
+
+        h4 {  
+            font-family:Microsoft JhengHei;
+            margin: 20px;
+            letter-spacing: 5px;
+        }
+
+        .table {
+            height: 300px;
+            width: 600px;
+            margin: auto;
+            text-align: center;
+
+            td {
+                width: 100px;
+                height: 50px;
+            }
+        }
+    }
+}

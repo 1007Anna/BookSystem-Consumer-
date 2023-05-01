@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <div class="orientation d-flex justify-content-evenly">
+            <a href="./index.html" style="color:black" class="me-3"><i class="fa-solid fa-house fa-2x"></i></a>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="word nav-link active" aria-current="page" href="#">会社案内</a>
+                </li>
+            </ul>  
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="word nav-link active" aria-current="page" href="#">店舗.アクセス</a>
+                </li>
+            </ul>
+        </div>
+        <div class="log-in d-flex justify-content-evenly m-5">
+            <p class="text-md-start m-2"><i class="fa-solid fa-phone m-2" style="color:black"></i>010-123456789</p>
+            <div class="btn-group" role="group" aria-label="group">
+                <button type="button" class="btn btn-outline-secondary ms-3">ログイン</button>
+                <button type="button" class="btn btn-outline-secondary">お問い合わせ</button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="area01">
+        <div class="searchArea input-group">
+            <input type="text" id="searchInput" class="form-control" aria-label="Text input with segmented dropdown button">
+            <button type="button" class="btn01 btn btn-outline-success" id="searchBtn">搜尋</button>
+            <button type="button" class="btn02 btn btn-outline-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="./search(consumer).html">ISBN</a></li>
+                <li><a class="dropdown-item" href="./search(consumer).html">Title</a></li>
+                <li><a class="dropdown-item" href="./search(consumer).html">Author</a></li>
+                <li><a class="dropdown-item" href="#">Category</a></li>
+             </ul>
+        </div>
+    </div>
+    <div class="area02">
+        <div class="bookArea">
+            <h4>書籍資訊</h4>
+            <table class="table" id="table">
+                <thead>
+                    <tr>
+                        <th scope="col">書名</th>
+                        <th scope="col">作者</th>
+                        <th scope="col">ISBN</th>
+                        <th scope="col">價錢</th>
+                        <th scope="col">庫存</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+        
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+      <script src="./category.js"></script>
+    
+</body>
+</html>
